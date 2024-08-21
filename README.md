@@ -15,7 +15,7 @@
    - Download the latest release from the [releases page](#).
 
 2. **Install Fabric:**
-   - Ensure Fabric is installed. You can download it from the [official website](https://fabricmc.net/use/).
+   - Ensure Fabric is installed. You can download it from the [official website](https://modrinth.com/mod/who-is-sleeping/).
 
 3. **Place the Mod:**
    - Place the downloaded mod JAR file into the `mods` folder of your Minecraft installation.
