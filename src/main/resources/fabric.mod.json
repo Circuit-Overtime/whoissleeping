@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "whoissleeping",
+	"version": "${version}",
+	"name": "whoissleeping",
+	"description": "Broadcasts the player name, who sleeps and makes the time skip to day.",
+	"authors": [
+		"Ayushman Bhattacharya"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Circuit-Overtime/whoissleeping.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/whoissleeping/whoissleepingicon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.whoissleeping"
+		]
+	},
+	"mixins": [
+		"whoissleeping.mixins.json",
+		{
+			"config": "whoissleeping.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
